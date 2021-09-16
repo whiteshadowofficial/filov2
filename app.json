@@ -15,7 +15,6 @@
         "SUDO": {
             "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example:120××××××××××,0",
             "required": false
-            "value": "918129624395,0"
         },
         "LANGUAGE": {
             "description": "only english language is available",
@@ -196,8 +195,7 @@
         },
         "TAG_REPLY": {
             "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
-            "required": false 
-            "value": "918129624395@s.whatsapp.net"         
+            "required": false          
         },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
