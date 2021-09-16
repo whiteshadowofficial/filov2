@@ -25,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'FILO created by *nexusNw*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*╔═════😎FILO V2😎═════╗*\n        \n*owner AFLAHXRD - http://Wa.me/+918129624395* \n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AFLAHXRD*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
@@ -43,7 +43,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'FILO created by *nexusNw*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*╔═════😎FILO V2😎═════╗*\n        \n*owner AFLAHXRD - http://Wa.me/+918129624395* \n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AFLAHXRD*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n-------------------', MessageType.text);
