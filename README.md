@@ -1,7 +1,7 @@
 <div align="center">
-  <img border-radius: 15px src="thumb-1920-1015834.jpg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.imgur.com/d614wuT.jpeg" width="200" height="200"/>
   <p align="center">
-<a href="#"><img title="filo" src="https://img.shields.io/badge/filo-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="FiloV2" src="https://img.shields.io/badge/filoV2-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author-nexusNw-/filo?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
@@ -50,7 +50,7 @@ Project created by <a href="https://github.com/nexusNw">Aflahxrd</a> to make it 
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@nexusNw/filo?v=1)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/filo)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/filov2)
      </div>
 <br>
 <br >
@@ -81,10 +81,9 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 ## Developers
   <div align="center">
     
-  [![Aflahxrd](https://github.com/nexusNw.png?size=100)](https://github.com/nexusNw) |  [![Alien-Alfa](https://github.com/Alien-alfa.png?size=100)](https://github.com/AI-VIKI) | [![afnanplk](https://github.com/afnanplk.png?size=100)](https://github.com/afnanplk) 
-----|----|----
-[Aflahxrd](https://github.com/farhan-dqz)  | [Alien-Alfa](https://github.com/nexusNw) | [afnanplk](https://github.com/afnanplk)
-Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
+  [![Aflahxrd](https://github.com/nexusNw.png?size=100)](https://github.com/nexusNw) |  
+---|----
+[Aflahxrd](https://github.com/nexusNw)  |
   </div>
 
 
