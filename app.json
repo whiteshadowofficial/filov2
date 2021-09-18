@@ -35,7 +35,12 @@
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
             "required": false,
             "value": "true"
-        },  
+        },
+          "TALKING_PINKY": {
+            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
          "THERI_KICK": {
             "description": "THERI VILICHAL KICK IF TRUE , just keep it false as this option is under maintanance ",
             "required": true,
