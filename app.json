@@ -40,6 +40,11 @@
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
+        }
+        "PM_BLOCK": {
+            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "required": true,
+            "value": "false"
         },
          "THERI_KICK": {
             "description": "THERI VILICHAL KICK IF TRUE , just keep it false as this option is under maintanance ",
