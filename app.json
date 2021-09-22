@@ -51,11 +51,6 @@
             "required": false,
             "value": "918129624395"
         },
-        "PM_BLOCK": {
-            "description": "Link Engelleme Sistemi. Link Blocking System.",
-            "required": true,
-            "value": "false"
-        },
         "FILO_NAME": {
             "description": "use your contact name",
             "required": false,
