@@ -197,14 +197,14 @@
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song open your wings```",
             "NEED_TEXT_SING": "*Tell me which song to sing !*\n*Example:* ```.sing open your wings```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
+            "DOWNLOADING_SONG": "𝙶𝚎𝚝 𝚁𝚎𝚊𝚍𝚢 𝚝𝚘 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝚢𝚘𝚞𝚛 𝚜𝚘𝚗𝚐☯︎",
             "DOWNLOADING_SING": "ɢᴇᴛ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ᴍᴇ ꜱɪɴɢ",
-            "UPLOADING_SONG": "ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
+            "UPLOADING_SONG": "5 𝕤𝕖𝕔 𝕣𝕖𝕞𝕒𝕚𝕟𝕚𝕟𝕘 𝕥𝕠 𝕘𝕖𝕥 𝕪𝕠𝕦𝕣 𝕤𝕠𝕟𝕘⚠︎",
             "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago```",
-            "DOWNLOADING_VIDEO": "ᴡᴀɪᴛ ᴀᴍ ꜱᴇᴀʀᴄʜɪɴɢ",
-            "UPLOADING_VIDEO": "ʜᴀʜᴀ ꜰᴏᴜɴᴅ ɪᴛ",
+            "DOWNLOADING_VIDEO": "𝚆𝚊𝚝𝚌𝚑𝚒𝚗𝚐 𝚝𝚑𝚎 𝚟𝚒𝚍𝚎𝚘 𝚢𝚘𝚞 𝚐𝚊𝚟𝚎𝚍😂",
+            "UPLOADING_VIDEO": "𝐈 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐝 𝐢𝐭 ,𝐭𝐢𝐦𝐞 𝐭𝐨 𝐬𝐞𝐧𝐝 𝐭𝐡𝐞 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐲𝐨𝐮❁",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
             "GETTING_VIDEOS": "```I'm bringing videos...```",
@@ -237,15 +237,15 @@
             "REPLY": "*Please Respond to User's Message to Report!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update for FILO.",
-            "UPDATE": "*Your FILO is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for FILO!*\n\n ```use .list for commands``` \n\n *ask support group before updating or your bot might stop working* ```https://chat.whatsapp.com/KZMAb2kdJVdAMNnGFD4PNa``` \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
+            "UPDATER_DESC": "𝗰𝗵𝗲𝗰𝗸𝘀 𝘁𝗵𝗲 𝘂𝗽𝗱𝗮𝘁𝗲𝘀 𝗳𝗼𝗿 𝗳𝗶𝗹𝗼.",
+            "UPDATE": "*Fɪʟᴏ ɪs ᴄᴏᴍᴘʟᴇᴛʟʏ ᴜᴘᴛᴏ ᴅᴀᴛᴇ✰*",
+            "NEW_UPDATE": "*New update available for 𝙵𝚒𝚕𝚘!*\n\n ```use .list for commands``` \n\n *ask support group before updating or your bot might stop working*\n ```https://chat.whatsapp.com/KZMAb2kdJVdAMNnGFD4PNa``` \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "FILO Updating...",
+            "UPDATING": "𝔽𝕚𝕝𝕠☯︎ Updating...",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ Successfully Updated!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 FILO Restarting Automatically!*",
+            "AFTER_UPDATE": "*💬 𝔽𝕚𝕝𝕠 Restarting Automatically!*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -473,7 +473,7 @@
             "NOT_FOUND": "*Media Not Found!*"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github afnanplk",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github nexusNw",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
@@ -588,7 +588,7 @@
             "M_AUT": "Music Author:"
         },
         "lyrics": {
-            "LY_DESC": "FILO will find the lyrics of the song.",
+            "LY_DESC": "𝗙𝗶𝗹𝗼 𝘄𝗶𝗹𝗹 𝗳𝗶𝗻𝗱 𝘁𝗵𝗲 𝗟𝘆𝗿𝗶𝗰𝘀 𝗼𝗳 𝘁𝗵𝗲 𝘀𝗼𝗻𝗴.",
             "NEED": "\n```You Must Write Any Song!```\n",
             "SLY": "Lyrics:",
             "AUT": "Song Owner:",
