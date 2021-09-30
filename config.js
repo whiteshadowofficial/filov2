@@ -72,7 +72,7 @@ module.exports = {
     
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
-    XTEAM_API: process.env.XTEAM_API === undefined ? '5bd33b276d41d6b4' : process.env.XTEAM_API,
+    XTEAM_API: process.env.XTEAM_API === undefined ? 'ba370b4275f5843b' : process.env.XTEAM_API,
     ZEKS_API: process.env.ZEKS_API === undefined ? 'cjxJIn9eDletRHac3CG6CdvGxFH' : process.env.ZEKS_API,
     LOLUHUMAN_API: process.env.LOLUHUMAN_API === undefined ? '990580a2e31add15990665b0' : process.env.LOLUHUMAN_API,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
