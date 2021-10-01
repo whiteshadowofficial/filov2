@@ -1,4 +1,4 @@
-* Codded by @afnanplk-farhandqz
+\*Codded by @afnanplk-farhandqz
 Telegram: t.me/phaticusthiccy
 Instagram: www.instagram.com/kyrie.baran
 */
