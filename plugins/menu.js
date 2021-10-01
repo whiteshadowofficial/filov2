@@ -94,8 +94,10 @@ Hisham.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (a
     r_text[76] = "https://i.ibb.co/0YNzZxQ/IMG-20210410-WA0317.jpg";
     r_text[77] = "https://i.ibb.co/T0KbLFN/IMG-20210410-WA0318.jpg";
     r_text[78] = "https://i.ibb.co/wgQWTKy/IMG-20210410-WA0319.jpg";
+    r_text[79] = "https://i.ibb.co/DbMk8nL/957395cbf134.jpg";
+    r_text[80] = "https://i.ibb.co/LQ4WJMR/f13a01cc7301.jpg";
 
-    var i = Math.floor(79*Math.random())
+    var i = Math.floor(80*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
