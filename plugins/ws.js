@@ -95,10 +95,21 @@ else if (Config.WORKTYPE == 'public') {
         r_text[20] = "https://i.imgur.com/kPgFfHL.mp4";
         r_text[21] = "https://i.imgur.com/u8CXxVp.mp4";
         r_text[21] = "https://i.imgur.com/yZvyxee.mp4";
+        r_text[22] = "https://i.imgur.com/pSGy86T.mp4";
+        r_text[23] = "https://i.imgur.com/3kFCmjw.mp4";
+        r_text[24] = "https://i.imgur.com/5OEEtvZ.mp4";
+        r_text[25] = "https://i.imgur.com/OJ9Krty.mp4";
+        r_text[26] = "https://i.imgur.com/bkjkhCB.mp4";
+        r_text[25] = "https://i.imgur.com/VdqgDrh.mp4";
+        r_text[26] = "https://i.imgur.com/XSbfAkN.mp4";
+        r_text[27] = "https://i.imgur.com/i9Xplth.mp4";
+        r_text[28] = "https://i.imgur.com/vjsmSP8.mp4";
+        r_text[29] = "https://i.imgur.com/wJHNLeh.mp4";
+        r_text[30] = "https://i.imgur.com/mKX5p74.mp4";
         
         
 
-        var i = Math.floor(22*Math.random())
+        var i = Math.floor(31*Math.random())
 
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
