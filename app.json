@@ -76,6 +76,16 @@
             "required": true,
             "value": "false"
         },
+        "SONGD": {
+            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
+            "required": true,
+            "value": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ"
+        },
+        "SONGU": {
+            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
+            "required": true,
+            "value": "ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ"
+        },
         "ALL_LINK_BAN": {
             "description": "Link Blocking System.- this one blocks all link",
             "required": true,
