@@ -43,10 +43,25 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'*╔═════😎FILO V2😎═════╗*\n        \n*owner AFLAHXRD - http://Wa.me/+918129624395* \n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AFLAHXRD*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'*╔═════😎FILO V2😎═════╗*\n        \n*owner AFLAHXRD - http://Wa.me/+918129624395* \n        \n*╚══════🔱🔱🔱🔱🔱═════╝*\n\n*▷Creator: AFLAHXRD*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n-------------------', MessageType.text);
         }
     }));
 }
+
+Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
+
+
+const vcard = 'BEGIN:VCARD\n'
+            + 'VERSION:3.0\n' 
+            + 'FN:OWNER\n'
+            + 'ORG:script AflahXRD;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8129624395\n' 
+            + 'END:VCARD'
+await message.client.sendMessage(message.jid,{displayname: "NEXUSNW", vcard: vcard}, MessageType.contact)
+        }
+    }));
+}
+
