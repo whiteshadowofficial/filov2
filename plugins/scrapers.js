@@ -1065,16 +1065,16 @@ else if (config.WORKTYPE == 'public') {
     await message.client.sendMessage(message.jid,{displayname: "nexusNw", vcard: vcard}, MessageType.contact)
 }))
 
-     Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
+     Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: true, desc: 'owner number 2' }, (async (message, match) => {
 
 
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Config.FILO_NAME\n' // full name
-            + 'ORG:script NEXUS;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid= Config.OWNER_NUMBER \n' // WhatsApp ID + phone number
+            + 'FN: Config.FILO_NAME\n' 
+            + 'ORG:script NEXUS;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid= Config.OWNER_NUMBER :918129624395'
             + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: Config.FILO_NAME , vcard: vcard}, MessageType.contact)
+await message.client.sendMessage(message.jid,{displayname: Config.FILO_NAME, vcard: vcard}, MessageType.contact)
 }))
 
 
