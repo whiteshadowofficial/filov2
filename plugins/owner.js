@@ -51,17 +51,3 @@ else if (Config.WORKTYPE == 'public') {
     }));
 }
 
-Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: false, desc: 'owner number' }, (async (message, match) => {
-
-
-const vcard = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n' 
-            + 'FN:OWNER\n'
-            + 'ORG:script AflahXRD;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8129624395\n' 
-            + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: "NEXUSNW", vcard: vcard}, MessageType.contact)
-        }
-    }));
-}
-
