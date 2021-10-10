@@ -1060,7 +1060,7 @@ else if (config.WORKTYPE == 'public') {
             + 'VERSION:3.0\n' 
             + 'FN:nexusNw\n' //coded by saidali   not copy this
             + 'ORG:script SAIDALI;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
+            + 'TEL;type=CELL;type=VOICE;waid=918129624395\n' //created nexus
             + 'END:VCARD'
     await message.client.sendMessage(message.jid,{displayname: "nexusNw", vcard: vcard}, MessageType.contact)
 }))
@@ -1070,11 +1070,11 @@ else if (config.WORKTYPE == 'public') {
 
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Config.FILONAME\n' // full name
+            + 'FN:Config.FILO_NAME\n' // full name
             + 'ORG:script NEXUS;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid= Config.OWNER_NUMBER \n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=Config.OWNER_NUMBER\n' // WhatsApp ID + phone number
             + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: Config.FILONAME , vcard: vcard}, MessageType.contact)
+await message.client.sendMessage(message.jid,{displayname: Config.FILO_NAME , vcard: vcard}, MessageType.contact)
 }))
 
 
