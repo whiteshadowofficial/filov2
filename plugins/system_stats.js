@@ -11,7 +11,6 @@ const {spawnSync} = require('child_process');
 const Config = require('../config');
 const chalk = require('chalk');
 const axios = require('axios');
-const fs = require("fs")
 
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
@@ -23,10 +22,10 @@ if (Config.WORKTYPE == 'private') {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image,{contextInfo: { forwardingScore: 2, isForwarded: true },caption: Config.ALIVEMSG }); });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG }); });
     }));
 
-    Asena.addCommand({pattern: 'info', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'sysd', fromMe: true, desc: Lang.SYSD_DESC}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
@@ -40,11 +39,10 @@ else if (Config.WORKTYPE == 'public') {
         
         let pp
         try { pp = await message.client.getProfilePicture(message.jid.includes('-') ? message.data.participant : message.jid ); } catch { pp = await message.client.getProfilePicture(); }
-        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image,{contextInfo: { forwardingScore: 2, isForwarded: true },caption: Config.ALIVEMSG }); });
-      });
+        await axios.get(pp, {responseType: 'arraybuffer'}).then(async (res) => { await message.client.sendMessage(message.jid, res.data, MessageType.image, { caption: Config.ALIVEMSG }); });
     }));
 
-    Asena.addCommand({pattern: 'info', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
+    Asena.addCommand({pattern: 'sysd', fromMe: false, desc: Lang.SYSD_DESC}, (async (message, match) => {
 
         const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
         await message.sendMessage(
