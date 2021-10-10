@@ -106,10 +106,32 @@ else if (Config.WORKTYPE == 'public') {
         r_text[28] = "https://i.imgur.com/vjsmSP8.mp4";
         r_text[29] = "https://i.imgur.com/wJHNLeh.mp4";
         r_text[30] = "https://i.imgur.com/mKX5p74.mp4";
+        r_text[31] = "https://i.imgur.com/WXEksN4.mp4";
+        r_text[32] = "https://imgur.com/3VOuEfg.mp4";
+        r_text[33] = "https://imgur.com/rbGjIBI.mp4";
+        r_text[34] = "https://imgur.com/tt2gMXr.mp4";
+        r_text[35] = "https://imgur.com/kR4XGKY.mp4";
+        r_text[36] = "https://imgur.com/3PHv4Uu.mp4";
+        r_text[37] = "https://imgur.com/4O5pLdC.mp4";
+        r_text[38] = "https://imgur.com/Q6REjY0.mp4";
+        r_text[39] = "https://imgur.com/5m5TDEJ.mp4";
+        r_text[40] = "https://i.imgur.com/j8EHCh6.mp4";
+        r_text[41] = "https://i.imgur.com/j8EHCh6.mp4";
+        r_text[42] = "https://i.imgur.com/IUb17JQ.mp4";
+        r_text[43] = "https://i.imgur.com/SH3tyRo.mp4";
+        r_text[44] = "https://i.imgur.com/mSAFD9c.mp4";
+        r_text[45] = "https://imgur.com/a/yY48lMK.mp4";
+        r_text[46] = "https://imgur.com/64FWq3W.mp4";
+        r_text[47] = "https://imgur.com/aZlS1bV.mp4";
+        r_text[48] = "https://imgur.com/ed0X9m5.mp4";
+        r_text[49] = "https://imgur.com/nDlrBug.mp4";
+        r_text[50] = "https://imgur.com/3AczL5y.mp4";
+        r_text[51] = "https://imgur.com/CeizCwC.mp4";
+        r_text[52] = "https://imgur.com/XQNNBxg.mp4";
         
         
 
-        var i = Math.floor(31*Math.random())
+        var i = Math.floor(53*Math.random())
 
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
