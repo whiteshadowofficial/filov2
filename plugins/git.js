@@ -21,11 +21,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*FILO V2 by AFLAHXRD*\n
-\n*owner number wa.me/918129624395*\n
-\n*CONTACT OWNER THROUGH social networks- (Instagram) @nexus.efx*\n
-\n*Git link : www.github.com/nexusNw/filov2*\n\n
-\n*USE ME FOR GOOD ,NOT FOR WORST🙂*\n
-`}) 
+    await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*✮  ❖ ᴀͥɴͭᴜᷤܓᴍᴡͫᴏͤʟ ❖  ✮*
+ 
+ ❖ *͢ꪶ᳄ɪᴛs-ᴍᴇ  ͢ғɪʟᴏ ᴠ2*
+ ❖ *ᴏᴡɴᴇʀ: wa.me/918129624395* 
+ ❖ *ᴅᴇᴠᴇʟᴏᴘᴇʀ: ͢ꪶ ͢ɴᴇxᴜs࿐⁩*
+ ❖ *ɢɪᴛʜᴜʙ ʟɪɴᴋ:http://github.com/nexusNw/filov2*`}) 
 
 }));
