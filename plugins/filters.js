@@ -1,16 +1,12 @@
-/* Copyright (C) 2020 nexusnw.
-
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-
-WhatsAsena - Yusuf Usta
+/* Copyright (C) 2020 farhan-dqz.
+re codded by afnan plk and-saidali
 */
 const fs = require('fs')
 const Asena = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
 const Config = require('../config')
-const jid = Config.DISBGM != false ? Config.DISBGM.split(',') : [];
+const jid = Config.DISBGM !== undefined ? COnfig.DISBGM.split(',') : [];
 const Language = require('../language');
 const Lang = Language.getString('filters');
 
@@ -57,7 +53,7 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc']
+const array = ['nexusnw']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -113,18 +109,23 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
         await message.client.sendMessage(message.jid,Lang.DELETED, MessageType.text)
     }
 }));
+    
+if (Config.PLKBGM == 'one') { 
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
         if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
-await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/owner.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
+        }
+        if (!!message.mention && message.mention[0] == Config.AFNN) {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
 const array = ['Aflah','Farha','mine','Filo','nexusnw','nw akhil','tear pc']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
 }
 });
     }
@@ -140,14 +141,46 @@ if(pattern.test(message.message)){
         }
     );
 }));
+}
+if (Config.PLKBGM == 'two') {    
+    Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
+        if(Config.BGMFILTER){
+        let banned = jid.find( Jid => Jid === message.jid);
+        if(banned !== undefined) return
+        if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+        if (!!message.mention && message.mention[0] == Config.AFNN) {
+await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
+        }
+const array = ['Filo','nexusnw','Aflah']
+array.map( async (a) => {
+let pattern = new RegExp(`\\b${a}\\b`, 'g');
+if(pattern.test(message.message)){
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads2/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted: message.data, ptt: true})
+}
+});
+    }
+    var filtreler = await FilterDb.getFilter(message.jid);
+    if (!filtreler) return; 
+    filtreler.map(
+        async (filter) => {
+            pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
+            if (pattern.test(message.message)) {
+                await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.text, {quoted: message.data});
+            }
+        }
+    );
+}));
+}
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-    if(Config.AUTOSTICKER){
+    if(Config.STICKERP){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
     if (!!message.mention && message.mention[0] == '918129624395@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./stickers/Mention.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Filo','nexusnw','nw akhil','tear pc']
+const array = ['tear pc','nw akhil','Filo','nexusnw']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
