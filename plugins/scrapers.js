@@ -1058,26 +1058,13 @@ else if (config.WORKTYPE == 'public') {
 
     const vcard = 'BEGIN:VCARD\n' // saidali said
             + 'VERSION:3.0\n' 
-            + 'FN:nexusNw\n' //coded by saidali   not copy this
-            + 'ORG:script SAIDALI;\n' // the organization of the contact
+            + 'FN:nexusNw\n' //coded by nexus   not copy this
+            + 'ORG:script NEXUS;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
             + 'END:VCARD'
-    await message.client.sendMessage(message.jid,{displayname: "nexusNw", vcard: vcard}, MessageType.contact)
+    await message.client.sendMessage(message.jid,{displayname: "💝NeXusSir🥳", vcard: vcard}, MessageType.contact)
 }))
-
-     Asena.addCommand({ pattern: 'owner ?(.*)', fromMe: true, desc: 'owner number 2' }, (async (message, match) => {
-
-
-const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
-            + 'VERSION:3.0\n' 
-            + 'FN: Config.FILO_NAME\n' 
-            + 'ORG:script NEXUS;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid= Config.OWNER_NUMBER :918129624395'
-            + 'END:VCARD'
-await message.client.sendMessage(message.jid,{displayname: Config.FILO_NAME, vcard: vcard}, MessageType.contact)
-}))
-
-
+     
     Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
