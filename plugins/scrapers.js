@@ -1062,7 +1062,7 @@ else if (config.WORKTYPE == 'public') {
             + 'ORG:script NEXUS;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
             + 'END:VCARD'
-    await message.client.sendMessage(message.jid,{displayname: "💝NeXusSir🥳", vcard: vcard}, MessageType.contact)
+    await message.client.sendMessage(message.jid,{displayname: "͢ꪶ᳄ɪᴛs- ͢ɴᴇxᴜs", vcard: vcard}, MessageType.contact)
 }))
      
     Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
