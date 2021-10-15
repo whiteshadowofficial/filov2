@@ -46,15 +46,6 @@ if (Config.WORKTYPE == 'private') {
 
 else if (Config.WORKTYPE == 'public') {
 
-    SewRavi.addCommand({pattern: 'png ?(.*)', fromMe: false, desc: des}, (async (message, match) => {
-
-        if (match[1] === '') return await message.sendMessage(iii);
-
-        var webimage = await axios.get(`https://docs-jojo.herokuapp.com/api/emoji2png?emoji=${encodeURIComponent(match[1])}&type=apple`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Mady by Filo'})
-
-    }));
 
     SewRavi.addCommand({pattern: 'png ?(.*)', fromMe: true,dontAddCMDList: true}, (async (message, match) => {
 
