@@ -16,11 +16,11 @@ if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'nexu ?(.*)', fromMe: true, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v1/?text=${match[1]}&lang=en&cf=true`;
+	const url = `https://zenzapi.xyz/api/simih2?text==${match[1]}&apikey=07d3f898a6&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n\n*Filoo* 🥰 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
+	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n\n*Nexu* 🥰 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
 	} catch {
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
 	}
@@ -30,7 +30,7 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'nexu ?(.*)', fromMe: false, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v2/?text=${match[1]}&lang=en&cf=true`;
+	const url = `https://zenzapi.xyz/api/simih2?text==${match[1]}&apikey=07d3f898a6&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
