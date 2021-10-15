@@ -267,6 +267,6 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
 
     var webimage = await axios.get(`https://zenzapi.xyz/api/image/nulis?text=text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
 
-    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN })
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: *Made by Nexus Sir* })
 
     }));
