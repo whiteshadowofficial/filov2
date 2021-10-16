@@ -265,7 +265,7 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/nulis?text=text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/nulis?text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
 
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```'})
 
