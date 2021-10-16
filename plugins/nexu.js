@@ -4,39 +4,33 @@ you may not use this file except in compliance with the License.
 WhatsAsenaDuplicated
 */
 
-const Asena = require('../events');
-const Config = require('../config');
+const Ktb = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
-const got = require('got');
+const axios = require('axios');
+const Config = require('../config');
 
-const Language = require('../language');
-const Lang = Language.getString('weather');
+//KTB:-KARTHIK_TERROR-BOY
 
-if (Config.WORKTYPE == 'private') {
+const b64 = "Simsim plugin."
+const usage = ".nexu <text>"
 
-    Asena.addCommand({pattern: 'nexu ?(.*)', fromMe: true, desc: Lang.BOT_DESC}, async (message, match) => {
-	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://zenzapi.xyz/api/simih2?text==${match[1]}&apikey=07d3f898a6&lang=en&cf=true`;
-	try {
-		const response = await got(url);
-		const json = JSON.parse(response.body);
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\n\n*Nexu* 🥰 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
-	} catch {
-		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
-	}
-    });
-}
-else if (Config.WORKTYPE == 'public') {
+const encypt = "```Enter the text!```"
 
-    Asena.addCommand({pattern: 'nexu ?(.*)', fromMe: false, desc: Lang.BOT_DESC}, async (message, match) => {
-	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://zenzapi.xyz/api/simih2?text==${match[1]}&apikey=07d3f898a6&lang=en&cf=true`;
-	try {
-		const response = await got(url);
-		const json = JSON.parse(response.body);
-	  if (response.statusCode === 200) return await message.client.sendMessage(message.jid, '\ɴᴇͥxͭᴜᷤꜱ ꜱͫɪͤʀ* 🚶 ' + Lang.BOT +' ```' + json.messages[0].response + '```\n\n' , MessageType.text,{quoted: message.data});
-	} catch {
-		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDAC, MessageType.text);
-	}
-    });
-}
+Ktb.addCommand({ pattern: 'nexu ?(.*)', fromMe: false, desc: b64, usage: usage }, async (message, match) => {
+
+        const Wtb = match[1]
+        
+        if (match[1] === '') return await message.client.sendMessage(message.jid, encypt, MessageType.text);
+
+        await axios
+          .get(`https://zenzapi.xyz/api/simih2?apikey=07d3f898a6&text=${Wtb}`)
+          .then(async (response) => {
+            const {
+              message,
+            } = response.data
+
+            const msg = `*nexu--》* ${message}\n`
+            await message.client.sendMessage(message.jid, msg, MessageType.text)
+           })
+      },
+    )
