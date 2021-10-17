@@ -288,5 +288,13 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
     
-    
+    Asena.addCommand({pattern: 'botc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/botcomment?text=${match[1]}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```'})
+
+    }));
     
