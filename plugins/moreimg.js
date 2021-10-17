@@ -174,23 +174,6 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
 
     }));
 
- Asena.addCommand({pattern: 'emo ?(.*)', fromMe: false, dontAddCommandList: true, desc: 'emogi to png'}, (async (message, match) => {
-
-      if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
-        
-      if (message.jid === '905524317852-1612300121@g.us') {
-
-            return;
-        }
-        
-      var uri = encodeURI(match[1]);
-  
-      var ttinullimage = await axios.get('https://api.zeks.xyz/api/emoji-image?apikey=odsMYXx67ZhT38w5hp5mgRKO8En&emoji='+ uri, { responseType: 'arraybuffer' })
-  
-      await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg})
-  
-    }));
-
     Asena.addCommand({pattern: 'flame ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
@@ -270,3 +253,22 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
     await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '```HERE IT IS```'})
 
     }));
+
+    Asena.addCommand({pattern: 'ycm ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+  
+  var topText, bottomText;
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        bottomText = split[1];
+        topText = split[0];
+}
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/ytcomment?image=https://i.ibb.co/KjSBWx4/PicsArt_08-08-12.27.04.jpg&text=${bottomText}&username=${bottomText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN })
+
+    }));
+    
+   
