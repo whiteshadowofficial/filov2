@@ -265,10 +265,28 @@ Asena.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tru
         topText = split[0];
 }
 
-    var webimage = await axios.get(`https://zenzapi.xyz/api/image/ytcomment?image=https://i.ibb.co/KjSBWx4/PicsArt_08-08-12.27.04.jpg&text=${bottomText}&username=${bottomText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/ytcomment?image=https://i.ibb.co/KjSBWx4/PicsArt_08-08-12.27.04.jpg&text=${bottomText}&username=${topText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
 
    await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN })
 
     }));
     
-   
+   Asena.addCommand({pattern: 'phc ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+
+    if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
+  
+  var topText, bottomText;
+    if (match[1].includes(';')) {
+        var split = match[1].split(';');
+        bottomText = split[1];
+        topText = split[0];
+}
+
+    var webimage = await axios.get(`https://zenzapi.xyz/api/image/phcomment?image=https://i.ibb.co/KjSBWx4/Pics-Art-02-07-11-45-03.jpg&text=${bottomText}&username=${topText}&apikey=07d3f898a6`, { responseType: 'arraybuffer' })
+
+   await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: Config.AFN })
+
+    }));
+    
+    
+    
