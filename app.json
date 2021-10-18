@@ -21,6 +21,7 @@
             "required": true,
             "value": "en"
         },
+          
           "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
             "required": false,
@@ -36,6 +37,13 @@
             "required": true,
             "value": "false"
         },
+
+         ALIVE_LOGO": {
+            "description": "Alive message logo. Enter your image link below to change the image. (Upload the image you want to https://imgbb.com and put that link here.)",
+            "required": true,
+            "value": "https://i.ibb.co/RYB9JWG/4428e27ef288.jpg"
+        },
+
          "STICKER_REPLY": {
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
             "required": false,
