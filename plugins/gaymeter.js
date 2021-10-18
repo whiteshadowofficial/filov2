@@ -143,7 +143,7 @@ if (con.LANG === 'TR') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Yüzdesi Hesaplandı!* 🏳️‍🌈\n*Sonuç:* ${r_text[i]}` }
             )
@@ -269,7 +269,7 @@ if (con.LANG === 'TR') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Yüzdesi Hesaplandı!* 🏳️‍🌈\n*Sonuç:* ${r_text[i]}` }
             )
@@ -398,7 +398,7 @@ else if (con.LANG === 'HI') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*समलैंगिक प्रतिशत की गणना!* 🏳️‍🌈\n*परिणाम:* ${r_text[i]}` }
             )
@@ -524,7 +524,7 @@ else if (con.LANG === 'HI') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*समलैंगिक प्रतिशत की गणना!* 🏳️‍🌈\n*परिणाम:* ${r_text[i]}` }
             )
@@ -653,7 +653,7 @@ else if (con.LANG === 'AZ') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Yüzdesi Hesaplandı!* 🏳️‍🌈\n*Sonuç:* ${r_text[i]}` }
             )
@@ -779,7 +779,7 @@ else if (con.LANG === 'AZ') {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Yüzdesi Hesaplandı!* 🏳️‍🌈\n*Sonuç:* ${r_text[i]}` }
             )
@@ -908,7 +908,7 @@ else {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Meter Calculated!* 🏳️‍🌈\n*Result:* ${r_text[i]}` }
             )
@@ -1034,7 +1034,7 @@ else {
 
             await message.client.sendMessage(
                 message.jid, 
-                fs.readFileSync("/root/WhatsAsenaDuplicated/media/gif/giphy.mp4"),
+                fs.readFileSync("./uploads/giphy.mp4"),
                 MessageType.video, 
                 { mimetype: Mimetype.gif, caption: `*Gay Meter Calculated By FILO!* 🏳️‍🌈\n*Result:* ${r_text[i]}` }
             )
