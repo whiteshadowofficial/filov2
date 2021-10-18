@@ -47,8 +47,6 @@ module.exports = {
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
     SAID: process.env.BGM_DURATION === undefined ? '39999600' : process.env.BGM_DURATION,
-    FILONAME: process.env.FILO_NAME === undefined ? 'FILO' : process.env.FILO_NAME,
-    OWNERNUMBER: process.env.OWNER_NUMBER=== undefined ? '918129624395' : process.env.OWNER_NUMBER,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
     WORKTYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
     PROMOTEMSG: process.env.PROMOTE_MESSAGE === undefined ? 'default' : process.env.PROMOTE_MESSAGE,
