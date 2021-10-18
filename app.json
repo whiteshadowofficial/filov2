@@ -67,17 +67,7 @@
             "description": "THERI VILICHAL KICK IF TRUE , just keep it false as this option is under maintanance ",
             "required": true,
             "value": "false"
-        },
-        "OWNER_NUMBER": {
-            "description": "use your orginal phone number ex 918606759500",
-            "required": false,
-            "value": "918129624395"
-        },
-        "FILO_NAME": {
-            "description": "use your contact name",
-            "required": false,
-            "value": "Nexus"
-        },
+        },        
         "AUTO_BİO": {
             "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
             "required": true,
