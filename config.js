@@ -21,6 +21,7 @@ module.exports = {
     SESSION: process.env.FILO_SESSION === undefined ? '' : process.env.FILO_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://i.ibb.co/RYB9JWG/4428e27ef288.jpg' : process.env.ALIVE_LOGO,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     INBO1: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     AFN: process.env.ALL_CAPTION === undefined ? 'public bot FILO' : process.env.ALL_CAPTION,
