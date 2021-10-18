@@ -33,13 +33,13 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 
   <p align="center">
   <a href="https://github.com/nexusNw/filo">
-    <img src="https://img.shields.io/github/repo-size/nexusNw/filo?color=green&label=Repo%20total%20size&style=italic">
+    <img src="https://img.shields.io/github/repo-size/nexusNw/filov2?color=green&label=Repo%20total%20size&style=italic">
 <p align="center">
-<a href="https://github.com/nexusNw/followers"><img title="Followers" src="https://img.shields.io/github/followers/filo?color=red&style=flat-circle"></a>
-<a href="https://github.com/nexusNw/filo/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/filo?color=red&style=flat-square"></a>
-<a href="https://github.com/nexusNw/filo/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/filo?color=red&style=flat-square"></a>
-<a href="https://github.com/nexusNw/filo/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/filo?label=Watchers&color=red&style=flat-square"></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
+<a href="https://github.com/nexusNw/followers"><img title="Followers" src="https://img.shields.io/github/followers/nexusNw?color=red&style=flat-circle"></a>
+<a href="https://github.com/nexusNw/filo/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/nexusNw/filov2?color=red&style=flat-square"></a>
+<a href="https://github.com/nexusNw/filo/network/members"><img title="Forks" src="https://img.shields.io/github/forks/nexusNw/filov2?color=red&style=flat-square"></a>
+<a href="https://github.com/nexusNw/filo/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/nexusNw/filov2?label=Watchers&color=red&style=flat-square"></a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-NO-blue.svg"</a>
 
 
 
