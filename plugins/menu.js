@@ -1,6 +1,6 @@
-/* codded by raashii
-reedited by hisham
-use this git under copyright
+/* codded by raashi
+reedited by nexus
+use this plugin under copyright
 dont change credit
 */
 
@@ -129,7 +129,7 @@ if (config.AUTOBİO == 'false') auto_bio = 'Off'
 │         *⌚` + time + `*
 │
 │ ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ɴᴇͥxͭᴜᷤꜱ ꜱͫɪͤʀ
-│ ▢ *BOT* : FILO
+│ ▢ *BOT* : Fɪʟᴏ
 │ ▢ *ᴠᴇʀsɪᴏɴ* : 2.0.0
 │ ▢ *ғᴜʟʟ ᴇᴠᴀ* : ` + eva + `
 │ ▢ *ᴀᴜᴛᴏ ʙɪᴏ* : ` + auto_bio + `
@@ -167,12 +167,9 @@ if (config.AUTOBİO == 'false') auto_bio = 'Off'
 │
 │[ ᴍᴀᴋᴇʀ ]
 │
-│ ▢ .logo
-│ ▢ .spack
-│ ▢ .shpack
 │ ▢ .makermenu
 │ ▢ .txtit
-│ ▢ .effectimge 
+│ ▢ .ᴛxᴛᴛᴏɪᴍɢ
 │ 
 │[ ғᴜɴ ]
 │
@@ -205,6 +202,7 @@ if (config.AUTOBİO == 'false') auto_bio = 'Off'
 │ ▢ .sʜᴏʀᴛ
 │ ▢ .ᴛʀᴛ
 │ ▢ .ʀᴇᴍᴏᴠᴇʙɢ
+│ ▢ .ʙᴘᴡ
 │ 
 │[ ᴏᴡɴᴇʀ ᴄᴍɴᴅs ]
 │
