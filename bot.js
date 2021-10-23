@@ -133,7 +133,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.blueBright.italic(F'ilo  working perfectly 👻')
+            chalk.blueBright.italic('Filo  working perfectly 👻')
         );
     });
     
