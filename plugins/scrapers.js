@@ -463,7 +463,7 @@ if (config.WORKTYPE == 'private') {
         got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
         ffmpeg(stream)
             .audioBitrate(320)
-            .save('./'ꪶ᳄ɪᴛs-ᴍᴇ  ͢ɴᴇxᴜs'.mp3')
+            .save('./' + title + '.mp3')
             .on('end', async () => {
                 const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
                 writer.setFrame('TIT2', arama[0].title)
@@ -943,7 +943,7 @@ else if (config.WORKTYPE == 'public') {
         got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
         ffmpeg(stream)
             .audioBitrate(320)
-            .save('./'͢ꪶ᳄ɪᴛs-ᴍᴇ  ͢ɴᴇxᴜs'.mp3')
+            .save('./' + title + '.mp3')
             .on('end', async () => {
                 const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
                 writer.setFrame('TIT2', arama[0].title)
