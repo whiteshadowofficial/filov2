@@ -2,7 +2,7 @@
   "name": "Filo",
   "version": "7.3.6",
   "description": "Filo  - publicbot Developed by Nexus ,helping to improve your Whatsapp experience.",
-  "main": "./WhatsAsenaDuplicated/bot.js",
+  "main": "./filov2/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
