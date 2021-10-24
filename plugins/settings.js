@@ -8,7 +8,7 @@ const axios = require('axios');
 const Config = require('../config');
 const Ln = "*SETVAR SETTING COMMADS* "
    
-    Asena.addCommand({pattern: 'setvar', fromMe: true, desc: show setvar commands,} (async (message, match) => {
+    Asena.addCommand({pattern: 'setvar', fromMe: true, desc: 'Converts Site to PDF.' }, (async (message, match) => {
 
     var r_text = new Array ();
     
