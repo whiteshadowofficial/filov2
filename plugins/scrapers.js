@@ -1065,7 +1065,20 @@ else if (config.WORKTYPE == 'public') {
     await message.client.sendMessage(message.jid,{displayname: "͢ꪶ᳄ɪᴛs- ͢ɴᴇxᴜs", vcard: vcard}, MessageType.contact)
 }))
      
-    Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
+    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows basic setvar commands.'}, (async (message, match) => {
+
+            const p_lk = 'BEGIN:VCARD\n'
+            + 'VERSION:3.0\n' 
+            + 'FN:' + Filo.OA_NAME + '\n' //created afnanplk and re rdited by nexus please copy this with credit..
+            + 'ORG: filo nexu fam;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=' + Filo.PHONE + ':' + Filo.PHONE + ' \n'
+            + 'END:VCARD'
+await message.client.sendMessage(message.jid, {displayname: "Owner2", vcard: p_lk}, MessageType.contact);
+
+  }));
+
+
+        Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
  
