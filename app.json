@@ -62,7 +62,15 @@
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
             "value": "default"
-        },    
+        },  
+        "DEPLOYER": {
+            "description": "enter your name here",
+            "required": false
+        },
+        "NUMBER": {
+            "description": "give your orginal phone number if you wish to add it in .number cmnd ",
+            "required": false
+        },  
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
             "required": true,
