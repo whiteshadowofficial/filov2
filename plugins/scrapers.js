@@ -1069,9 +1069,9 @@ else if (config.WORKTYPE == 'public') {
 
             const p_lk = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:' + Pinky.OA_NAME + '\n' //created afnanplk and re rdited by nexus please copy this with credit..
+            + 'FN:' + Config.OA_NAME + '\n' //created afnanplk and re rdited by nexus please copy this with credit..
             + 'ORG: filo nexu fam;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + Pinky.PHONE + ':' + Pinky.PHONE + ' \n'
+            + 'TEL;type=CELL;type=VOICE;waid=' + Config.PHONE + ':' + Config.PHONE + ' \n'
             + 'END:VCARD'
 await message.client.sendMessage(message.jid, {displayname: "Owner2", vcard: p_lk}, MessageType.contact);
 
