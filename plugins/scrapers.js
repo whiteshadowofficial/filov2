@@ -1058,26 +1058,12 @@ else if (config.WORKTYPE == 'public') {
 
     const vcard = 'BEGIN:VCARD\n' // saidali said
             + 'VERSION:3.0\n' 
-            + 'FN:nexusNw\n' //coded by nexus   not copy this
+            + 'FN:͢ꪶ᳄ɪᴛs-ᴍᴇ  ͢ɴᴇxᴜs\n' //coded by nexus   not copy this
             + 'ORG:script NEXUS;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
             + 'END:VCARD'
     await message.client.sendMessage(message.jid,{displayname: "͢ꪶ᳄ɪᴛs- ͢ɴᴇxᴜs", vcard: vcard}, MessageType.contact)
 }))
-     
-    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows basic setvar commands.'}, (async (message, match) => {
-
-            const p_lk = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n' 
-            + 'FN:' + Config.DEPLOYER  + '\n' //created afnanplk and re rdited by nexus please copy this with credit..
-            + 'ORG: filo nexu fam;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + Config.NUM + ':' + Config.NUM + ' \n'
-            + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "Owner2", vcard: p_lk}, MessageType.contact);
-
-  }));
-
-
         Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
