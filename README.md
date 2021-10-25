@@ -48,11 +48,10 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 ## Setup
 <div align="center">
 
-  ### Simple Method
-  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@nexusNw/filo?v=1)
+  ### click the image below,it will redirect to a website , check the site you will get the qr button and  deploy to heroku button😘⭐
+ 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/nexusNw/filov2)
+[![Deploy](https://i.imgur.com/eJiWv3K.jpeg)](https://nexusnw.yolasite.com/)
      </div>
 <br>
 <br >
