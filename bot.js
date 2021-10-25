@@ -1,8 +1,3 @@
-/* Copyright (C) 2020 Yusuf Usta.
-RECODDED BY AFNANPPLK
-Plk  
-*/
-
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
@@ -96,7 +91,6 @@ async function whatsAsena () {
     conn.on('connecting', async () => {
         console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
 ${chalk.white.bold('Version:')} ${chalk.red.bold(config.VERSION)}
-
 ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
     });
     
@@ -133,7 +127,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.blueBright.italic('Filo  working perfectly 👻')
+            chalk.green.bold('FILO  working perfectly 👻')
         );
     });
     
@@ -245,7 +239,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, 'filo💞_🐱_[error] ' +
+                                await conn.sendMessage(conn.user.jid, 'FiloV2_🐱_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
