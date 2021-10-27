@@ -25,7 +25,7 @@ const jid = '1234@s.whatsapp.net'
 const response = await conn.sendMessage (jid, 'hello!', MessageType.text)
 }));// send a message
 
-Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
+Asena.addCommand({pattern: 'cler', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
 await conn.deleteMessage (jid, {id: response.messageID, remoteJid: jid, fromMe: true})
 }));// will delete the sent message for everyone!
