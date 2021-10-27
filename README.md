@@ -48,10 +48,12 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 ## Setup
 <div align="center">
 
-  ### click the image below,it will redirect to a website , check the site you will get the qr button and  deploy to heroku button😘⭐
- 
 
-[![Deploy](https://i.imgur.com/eJiWv3K.jpeg)](https://nexusnw.yolasite.com/)
+  ### *click the Image with the title 'Deploy'below,it will redirect to a website , check the site you will get the qr button and  deploy to heroku button😘⭐
+ NB:- YOU WANT TO HET KEY FOR DEPLOYING FILO V2 , 
+ [![STEP TO GET THE KEY](https://i.imgur.com/VO1BXRH.jpeg)
+
+[![Deploy](https://i.imgur.com/PV8zFUT.jpeg)](https://nexusnw.yolasite.com/)
      </div>
 <br>
 <br >
