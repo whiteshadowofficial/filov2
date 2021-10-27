@@ -50,16 +50,16 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 
 
   ### *click the Image with the title 'Deploy'below,it will redirect to a website , check the site you will get the qr button and  deploy to heroku button😘⭐
- NB:- YOU WANT TO HET KEY FOR DEPLOYING FILO V2 , 
+ [![Deploy](https://i.imgur.com/PV8zFUT.jpeg)](https://nexusnw.yolasite.com/)
+
+NB:- YOU WANT TO HET KEY FOR DEPLOYING FILO V2 , 
  [![STEP TO GET THE KEY](https://i.imgur.com/VO1BXRH.jpeg)
 
-[![Deploy](https://i.imgur.com/PV8zFUT.jpeg)](https://nexusnw.yolasite.com/)
-     </div>
+</div>
 <br>
 <br >
-If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
-```
-bash <(curl -L https://t.ly/tHxh)
+ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
+```bash <(curl -L https://t.ly/tHxh)
 ``` 
 
 ## F.A.Q
