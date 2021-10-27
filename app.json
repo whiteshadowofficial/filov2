@@ -37,6 +37,10 @@
             "required": true,
             "value": "false"
         },
+        "GIT_KEY": {
+            "description": "enter the key, to get read my readme or go to https://nexusnws-website.yolasite.com/ .",
+            "required": true
+        },
         
          "STICKER_REPLY": {
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
