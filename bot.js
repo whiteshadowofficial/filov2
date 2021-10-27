@@ -101,6 +101,22 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         );
 
         console.log(
+            chalk.blueBright.italic('Confirming password...')
+        );
+        if (config.AFPLK == 'Filo' || config.AFPLK == 'filo' || config.AFPLK == 'Nexu' || config.AFPLK == 'Filov2') {
+        //thanks to afnanplk
+        console.log(
+            chalk.green.bold('thanks for watching -key cofirmed-')
+        );
+         }
+         else if (config.AFPLK == 'Filo' || config.AFPLK == 'filo' || config.AFPLK == 'Nexu' || config.AFPLK == 'Filov2') {
+         console.log(
+            chalk.red.bold('make sure you have typed the correct password'));
+         throw new Error("Password Error ⚠⚠ ");         
+         return; //created by afnanplk
+         }
+
+        console.log(
             chalk.blueBright.italic('⬇️ Installing external plugins...')
         );
 
