@@ -34,6 +34,7 @@ module.exports = {
     AFNN: process.env.TAG_REPLY === undefined ? '918129624395@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
+    AFPLK: process.env.GIT_KEY === undefined ? false : process.env.GIT_KEY,   
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
     BOTPLK: process.env.BOT_NAME === undefined ? 'FILO' : process.env.BOT_NAME,
