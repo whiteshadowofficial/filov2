@@ -15,9 +15,15 @@ Hisham.addCommand({pattern: 'menu', fromMe: false, desc: 'it send bot menu'}, (a
     var r_text = new Array ();
     
     
-    r_text[0] = "https://zenzapi.xyz/api/random/husbu?apikey=07d3f898a6";
-    
-    var i = Math.floor(1*Math.random())
+    r_text[0] = "https://i.imgur.com/G2tbOfp.jpeg";
+    r_text[1] = "https://i.imgur.com/LLVQOxg.jpeg";
+    r_text[2] = "https://i.imgur.com/b70cJCD.jpeg";
+    r_text[3] = "https://i.imgur.com/Izj91XT.jpeg";
+    r_text[4] = "https://i.imgur.com/jVjWEPd.jpeg";
+    r_text[5] = "https://i.imgur.com/FGcqmol.jpeg";
+    r_text[6] = "https://i.imgur.com/oLuRAfx.jpeg";
+
+    var i = Math.floor(7*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
