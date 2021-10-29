@@ -101,12 +101,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         );
 
         console.log(
-            chalk.blueBright.italic('Confirming password...')
+            chalk.blueBright.italic('🕵️ Confirming Git key...')
         );
         if (config.AFPLK == 'Filo' || config.AFPLK == 'filo' || config.AFPLK == 'Nexu' || config.AFPLK == 'Filov2') {
         //thanks to afnanplk
         console.log(
-            chalk.green.bold('thanks for watching -key cofirmed-')
+            chalk.green.bold('🥳 Git key cofirmed ,thanks for using Filo V2❏-')
         );
          }
          else if (config.AFPLK == 'Filo' || config.AFPLK == 'filo' || config.AFPLK == 'Nexu' || config.AFPLK == 'Filov2') {
@@ -141,11 +141,12 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                 require('./plugins/' + plugin);
             }
         });
+        
 
         console.log(
-            chalk.green.bold('FILO  working perfectly 👻')
+            chalk.blueBright.italic('⬇️ now use filo with Proud😎...')
         );
-    });
+        
     
     conn.on('chat-update', async m => {
         if (!m.hasNewMessage) return;
