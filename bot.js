@@ -141,11 +141,11 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                 require('./plugins/' + plugin);
             }
         });
-        
 
-        console.log(
-            chalk.blueBright.italic('⬇️ now use filo with Proud😎...')
+       console.log(
+            chalk.green.bold('FILO  working perfectly 🙂')
         );
+    });
         
     
     conn.on('chat-update', async m => {
