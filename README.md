@@ -70,10 +70,12 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 
 [![Deploy](https://i.imgur.com/8FrlS9L.png)](https://nexusnw.yolasite.com/)
 
-```
-NB:- YOU WANT TO HET KEY FOR DEPLOYING FILO V2 , 
- [![STEP TO GET THE KEY](https://i.imgur.com/VO1BXRH.jpeg)
-```
+
+
+
+
+(NB:- YOU WANT TO HET KEY FOR DEPLOYING FILO V2 [STEP TO GET THE KEY](https://i.imgur.com/fieAyyw.jpg)
+
 </div>
 <br>
 <br >
