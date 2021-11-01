@@ -90,8 +90,8 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 ```
 Due to usage of Filo; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, Meenakshi developer do not accept responsibility.
-By establishing the Meenakshi, you are deemed to have accepted these responsibilities.
+Absolutely, Filo developer do not accept responsibility.
+By establishing the Filo, you are deemed to have accepted these responsibilities.
 
 Your account may be banned for the following reasons:
 - Using .ban command for more than one user.
