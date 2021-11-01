@@ -1,1 +1,10 @@
-llullup ondo avarathi poori mone 🙏🙏 bere alde credit oompi edkan😒puch'ham matram koothi 😒🙏
+\*aah umfi enn nen paranchu 
+
+but sherikum nee thanne oompi
+
+enthirunalum vere aarum ariyunilalo
+
+saramilla potte 
+
+
+ennalum enth myren ahno thaan😒🙏\*
