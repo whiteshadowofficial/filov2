@@ -17,7 +17,7 @@ This bot deploys only with a password! If you want please contact [Owner](wa.me/
 <a href="https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/d614wuT.jpeg" width="200" height="200"/>
+  <img border-radius: 15px src="https://i.imgur.com/DpKhOvr.jpg" width="200" height="200"/>
 
 <a href="#"><img title="ᠻ𝓲ꪶꪮV2" src="https://img.shields.io/badge/𝙵𝙸𝙻𝙾𝚅2✌︎-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 
