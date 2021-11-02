@@ -42,7 +42,7 @@ Project created by <a href="https://github.com/nexusNw">ꪖᠻꪶꪖꫝ ᥊𝘳�
 
 
 <p align="center">
-  <a href="https://github.com/nexusNw/filo">
+  <a href="https://github.com/nexusNw/filov2">
     <img src="https://img.shields.io/github/repo-size/nexusNw/filov2?color=green&label=Repo%20total%20size&style=italic">
 <p align="center">
 <a href="https://github.com/nexusNw/followers"><img title="Followers" src="https://img.shields.io/github/followers/nexusNw?color=red&style=flat-circle"></a>
