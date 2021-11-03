@@ -1,5 +1,5 @@
 ###
-This bot deploys only with a password! If you want please contact [Owner](https://wa.me/918129624395)
+This bot deploys only with a password! If you want please contact [Owner](https://api.whatsapp.com/send/?phone=918129624395&text=Hai,i%20am%20from%20you%20git%20page%F0%9F%93%8C&app_absent=0)
 
 ### 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐒𝐭𝐚𝐭𝐮𝐬 ⚠️
 ```
