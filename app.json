@@ -17,9 +17,9 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "only english language is available",
+            "description": "ml(mal),me(manglish),en(english),hi(hindi),in(Indonesian)languages available",
             "required": true,
-            "value": "en"
+            "value": "me"
         },
           
           "BGM_DURATION": {
