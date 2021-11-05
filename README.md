@@ -18,6 +18,12 @@ This bot deploys only with a password! If you want please contact [Owner](https:
 8. then deploy the bot and enjoy😗🎉
 9. if you have any doubts or problems ,come to our [support group](https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj)
 
+
+### latest update 📌
+```
+𝙰dded manglish(me) language🎉
+```
+
 <div align="center">  
 <details>
     <summary>📌<b>CLICK HERE FOR KNOW MORE 🎉</b></summary>
