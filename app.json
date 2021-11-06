@@ -17,7 +17,7 @@
             "required": false
         },
         "LANGUAGE": {
-            "description": "ml(mal),me(manglish),en(english),hi(hindi),in(Indonesian)languages available",
+            "description": "ml(mal),en(english),hi(hindi),in(Indonesian)languages available",
             "required": true,
             "value": "me"
         },
