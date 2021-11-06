@@ -21,7 +21,7 @@ This bot deploys only with a password! If you want please contact [Owner](https:
 
 ### latest update 📌
 ```
-𝙰dded manglish(me) language🎉 (📌not fully ready,so dont change lang today itslef📌)
+dlted manglish(me) 
 ```
 
 <div align="center">  
