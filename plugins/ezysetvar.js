@@ -34,6 +34,15 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         STICKER_off = 'STICKER option turned off!'
         
     }
+    if (config.LANG == 'MG') {
+        l_dsc = 'bgm on ahkukayo off ahkukayo cheyuka. -botinte owmer command'
+        Y_dsc = 'bgm on ahkukayo off ahkukayo cheyuka. -botinte owmer command'        
+        BGM_on = 'bgm on ahki'
+        BGM_off = 'bgm off ahki'
+        STICKER_on = 'STICKER option on ahki!'
+        STICKER_off = 'STICKER option off ahki!'
+        
+    }
     Julie.addCommand({pattern: 'bgm ?(.*)', fromMe: true, desc: l_dsc, usage: '.bgm on / off' }, (async (message, match) => {
         if (match[1] == 'off') {
                 await heroku.patch(baseURI + '/config-vars', { 
@@ -80,7 +89,7 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
         await message.sendMessage("NEW SUDO UPDATED")
     }));
 
-    Julie.addCommand({ pattern: 'caption ?(.*)', fromMe: true, desc: 'changes all captions', usage: '.caption *Made by JulieMwol*' }, (async (message, match) => {
+    Julie.addCommand({ pattern: 'caption ?(.*)', fromMe: true, desc: 'changes all captions', usage: '.caption *Made by your bot name*' }, (async (message, match) => {
         if (match[1] == '') return await message.sendMessage('NEED cA CAPTION')
         await heroku.patch(baseURI + '/config-vars', {
             body: {
@@ -109,16 +118,6 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
             }
         });
         await message.sendMessage("NEW BOT NAME UPDATED")
-    }));
-
-Julie.addCommand({ pattern: 'theri  ?(.*)', fromMe: true, desc: 'change your theri commands', usage: '.theri command,command' }, (async (message, match) => {
-        if (match[1] == '') return await message.sendMessage('TYPE YOUR NEW BOT NAME')
-        await heroku.patch(baseURI + '/config-vars', {
-            body: {
-                ['THERI_LIST']: match[1]
-            }
-        });
-        await message.sendMessage("THERI LIST UPDATED")
     }));
 
 
