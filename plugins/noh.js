@@ -69,7 +69,7 @@ if (regex2.test(message.message)) {
 
     var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
 	
-        const {data} = await axios(`https://zenzapi.xyz/api/downloader/ytmp4?url=https://youtu.be/${match[1]&index=2&apikey=07d3f898a6`)
+        const {data} = await axios(`https://zenzapi.xyz/api/downloader/ytmp4?url=https://youtu.be/${match[1]&index=2&apikey=07d3f898a6}`)
 	
         const { status, result } = data
 
