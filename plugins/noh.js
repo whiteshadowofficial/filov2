@@ -1,13 +1,3 @@
- __________   _________     ________________  ________  
-     EDUTHO BUT CREDIT THERANAM ALLEGIL ETH 👈🏻👆🏻👆🏻
-     
-     REMOVE CHEYIYARUTH
-     
-     THANKS TO KARTHIK TERROR BOY❤️
-_______  __________  ___________  ________    __________     
-*/
-
-
 const Ktb = require('../events');
 const {MessageType, Mimetype} = require('@adiwajshing/baileys');
 const fs = require('fs');
@@ -27,13 +17,16 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('sticker');
 
+   //THANKS KARTHIK TERROR BOY
+
+
 
 Ktb.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
     if (message.jid === '919562803423-1627735504@g.us') {
 
              return;
          }
-         let regex1 = new RegExp('Sticker')
+         let regex1 = new RegExp('Sticker') 
          let regex2 = new RegExp('https://youtu.be/')
          
          if (regex1.test(message.message)) {
