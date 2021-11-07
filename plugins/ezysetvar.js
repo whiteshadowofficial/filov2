@@ -11,6 +11,7 @@ const heroku = new Heroku({
 let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
    var l_dsc = ''
+   var Y_dsc = ''
     var BGM_on = ''
     var BGM_off = ''
     var STICKER_on = ''
