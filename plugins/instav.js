@@ -1,29 +1,16 @@
 const Asena = require('../events');
 const { MessageType } = require('@adiwajshing/baileys');
 const axios = require('axios')
-const LOAD_ING = "```Downloading media...```"
-
-Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from instagaram", dontAddCommandlist: false }, async (message, match) => {
-    //if(match[1] == '') return
-    let { data, type } = await instaGram(match[1], '82d4dc815ab1fd4c');
-    //if(type == undefined) return 
-    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: "Made By Filo V2❏" }) }
-    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: "Made By Filo V2❏" }) }
-});
-//const axios = require('axios')
-async function instaGram(url, key){
-const _0x477b=['135767iKnckP','673rRPNhH','data','1oVaSnc','1wFsRJN','5ZNKfRV','1082797kEqNzc','33405qKXkqX','get','536467jgcujZ','1509050KmQvtd','1sEPhwh','&APIKEY=','510217irWqHr','1753kjFBCd','20fokBTd'];function _0x34d6(_0x4f9dd8,_0x1e6344){return _0x34d6=function(_0x477b29,_0x34d6ab){_0x477b29=_0x477b29-0x128;let _0x12f50b=_0x477b[_0x477b29];return _0x12f50b;},_0x34d6(_0x4f9dd8,_0x1e6344);}const _0x88f305=_0x34d6;(function(_0x346d1d,_0xbe28c5){const _0x7c775f=_0x34d6;while(!![]){try{const _0x4a8522=parseInt(_0x7c775f(0x129))*-parseInt(_0x7c775f(0x136))+parseInt(_0x7c775f(0x12f))*parseInt(_0x7c775f(0x137))+parseInt(_0x7c775f(0x128))*parseInt(_0x7c775f(0x12d))+parseInt(_0x7c775f(0x12e))+parseInt(_0x7c775f(0x133))*parseInt(_0x7c775f(0x131))+parseInt(_0x7c775f(0x12c))*-parseInt(_0x7c775f(0x132))+-parseInt(_0x7c775f(0x135))*-parseInt(_0x7c775f(0x12b));if(_0x4a8522===_0xbe28c5)break;else _0x346d1d['push'](_0x346d1d['shift']());}catch(_0x1daac9){_0x346d1d['push'](_0x346d1d['shift']());}}}(_0x477b,0xc048d));const res=await axios('https://xteam.xyz/dl/ig?url='+url+_0x88f305(0x134)+key),{data,type}=res[_0x88f305(0x12a)]['result'][_0x88f305(0x12a)][0x0],buffer=await axios[_0x88f305(0x130)](data,{'responseType':'arraybuffer'});return{'data':buffer[_0x88f305(0x12a)],'type':type};
-}
-/*
-const instagram = async (url, key) => {
-    const _0x4a94a8 = _0x185a; function _0x3f3b() { const _0x37037c = ['jul', 'htt', 'ps:', 'nti', 'ouy', 'aw.', 'kit', '/in', 'sta', '?ur', 'dat', 'get', 'arr']; _0x3f3b = function () { return _0x37037c; }; return _0x3f3b(); } function _0x185a(_0x38e93d, _0x3f3b83) { const _0x185a5f = _0x3f3b(); _0x185a = function (_0x829ec5, _0x405d60) { _0x829ec5 = _0x829ec5 - 0xe5; let _0x20f676 = _0x185a5f[_0x829ec5]; return _0x20f676; }; return _0x185a(_0x38e93d, _0x3f3b83); } if (key != _0x4a94a8(0xe5) + 'ie') throw new Error('Jul' + 'ie'); const response = await axios(_0x4a94a8(0xe6) + _0x4a94a8(0xe7) + '//u' + _0x4a94a8(0xe8) + 'tle' + 'd-1' + _0x4a94a8(0xe9) + 'r1r' + 'szh' + _0x4a94a8(0xea) + 'run' + _0x4a94a8(0xeb) + '.sh' + _0x4a94a8(0xec) + _0x4a94a8(0xed) + _0x4a94a8(0xee) + 'l=' + url); const { status, result } = response[_0x4a94a8(0xef) + 'a']; if (!status) return { 'status': status }; const { type, data } = result[0x0]; const res = await axios[_0x4a94a8(0xf0)](data, { 'responseType': _0x4a94a8(0xf1) + 'ayb' + 'uff' + 'er' }); return { 'type': type, 'data': res[_0x4a94a8(0xef) + 'a'], 'status': status };
-}
+const LOAD_ING = "_Fetching media..._"
+const insta = async (url) => {
+    const _0x28dd55=_0x22f8;(function(_0x6e4616,_0x20fbf4){const _0x5f08a0=_0x22f8,_0x543590=_0x6e4616();while(!![]){try{const _0x47ce4f=parseInt(_0x5f08a0(0x18f))/0x1*(-parseInt(_0x5f08a0(0x18c))/0x2)+parseInt(_0x5f08a0(0x186))/0x3+parseInt(_0x5f08a0(0x18e))/0x4+parseInt(_0x5f08a0(0x187))/0x5+-parseInt(_0x5f08a0(0x18b))/0x6*(-parseInt(_0x5f08a0(0x191))/0x7)+-parseInt(_0x5f08a0(0x189))/0x8+parseInt(_0x5f08a0(0x190))/0x9;if(_0x47ce4f===_0x20fbf4)break;else _0x543590['push'](_0x543590['shift']());}catch(_0x43264c){_0x543590['push'](_0x543590['shift']());}}}(_0x262b,0x958c6));function _0x22f8(_0x34880d,_0x3a9ec7){const _0x262b8a=_0x262b();return _0x22f8=function(_0x22f8be,_0x303338){_0x22f8be=_0x22f8be-0x186;let _0x2cb587=_0x262b8a[_0x22f8be];return _0x2cb587;},_0x22f8(_0x34880d,_0x3a9ec7);}function _0x262b(){const _0x2f210d=['4586310OLQpTT','status','8098928RQSAMf','arraybuffer','24hjpdgw','12462ZxnqZY','type','1234372cmdrql','135JItfCO','4565412KZhxIi','1175874aZFTNT','result','https://lyfe00011.herokuapp.com/insta?url=','data','183150GbzKts'];_0x262b=function(){return _0x2f210d;};return _0x262b();}let {data}=await axios(_0x28dd55(0x193)+url);if(!data[_0x28dd55(0x188)])return{'status':![],'buffer':''};const buffer=await axios(data[_0x28dd55(0x192)][0x0][_0x28dd55(0x194)],{'responseType':_0x28dd55(0x18a)});return{'status':!![],'type':data['result'][0x0][_0x28dd55(0x18d)],'data':buffer[_0x28dd55(0x194)]};
+  }
+  
 Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: "Downloads from instagaram", dontAddCommandList: true }, async (message, match) => { 
-    const { status, type, data } = await instagram(match[1], 'julie')
-    if (!status) return await message.sendMessage('not found')
+    const { status, type, data } = await insta(match[1])
+    if (!status) return await message.sendMessage('_Download failed_')
     await message.client.sendMessage(message.jid, LOAD_ING, MessageType.text, { quoted: message.data });
-    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: "Made By Filo V2❏", quoted: message.data })
-    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: "Made By Filo V2❏", quoted: message.data })
+    if (type === 'image') return await message.sendMessage(data, MessageType.image, { caption: Config.AFN, quoted: message.data })
+    if (type === 'video') return await message.sendMessage(data, MessageType.video, { caption: Config.AFN, quoted: message.data })
 });
-    //lyfe00011-farhan_dqz
-    */
+    //Credit: Farhan dqz
