@@ -12,7 +12,7 @@ Asena.addCommand({pattern: 'audio', fromMe: false, desc: 'Gives audio commands'}
     
     
    
-  r_text[0] = "https://xteam.xyz/randomimage/blackpink?APIKEY=ba370b4275f5843b";
+  r_text[0] = "https://i.imgur.com/RSQlY93.jpg";
     
     
     var i = Math.floor(1*Math.random())
