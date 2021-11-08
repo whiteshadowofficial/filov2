@@ -47,7 +47,7 @@
             "required": false,
             "value": "true"
         },          
-          "TALKING_PINKY": {
+          "TALKING_FILO": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
             "value": "false"
