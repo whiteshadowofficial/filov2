@@ -32,6 +32,8 @@ module.exports = {
     SONGU: process.env.SONGU === undefined ? 'ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ' : process.env.SONGU,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     AFNN: process.env.TAG_REPLY === undefined ? '918129624395@s.whatsapp.net' : process.env.TAG_REPLY,
+    PHONE: process.env.NUMBER === undefined ? '+918129624395' : process.env.NUMBER,   
+    OA_NAME: process.env.DEPLOYER === undefined ? 'Nexusnw' : process.env.DEPLOYER,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     AFPLK: process.env.GIT_KEY === undefined ? false : process.env.GIT_KEY,   
