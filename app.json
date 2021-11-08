@@ -72,6 +72,10 @@
             "required": false,
             "value": "918129624395"
         }, 
+        "DEPLOYER": {
+            "description": "enter your name here",
+            "required": false
+        },
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
             "required": true,
