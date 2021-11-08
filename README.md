@@ -21,8 +21,7 @@ This bot deploys only with a password! If you want please contact [Owner](https:
 
 ### latest update 📌
 ```
-autodownload of yt videos📌
-deployers number send in .owner cmnd
+autodownload of yt videos and stiker making📌
 ```
 
 <div align="center">  
