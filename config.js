@@ -46,7 +46,7 @@ module.exports = {
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? undefined : convertToBool(process.env.DISABLE_JID_BGM_FILTER),
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
-    TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
+    TALKING_FILO: process.env.TALKING_FILO === undefined ? 'false' : process.env.TALKING_FILO,
     SAID: process.env.BGM_DURATION === undefined ? '39999600' : process.env.BGM_DURATION,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
     WORKTYPE: process.env.WORK_TYPE === undefined ? 'private' : process.env.WORK_TYPE,
