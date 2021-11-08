@@ -69,7 +69,7 @@ if (regex2.test(message.message)) {
 
     var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
 	
-        const {data} = await axios(`https://api.zeks.me/api/ytplaymp4?apikey=nexusnw000&q=https://youtu.be/${match[1]}`)
+        const {data} = await axios(`https://api.zeks.me/api/ytplaymp4?apikey=ApiKannappi&q=${match[1]}`)
 	
         const { status, result } = data
 
@@ -82,9 +82,10 @@ if (regex2.test(message.message)) {
 
         let msg = '```'
         msg +=  `TITLE :${result.title}\n\n`
+        msg +=  `THUMBNAIL :${result.thumbnail}\n\n`
+        msg +=  `SOURCE :${result.source}\n\n`
         msg +=  `SIZE :${result.size}\n\n`
-        msg +=  `DOWNLOADING LINK : https://youtu.be/5MKycJxmA4c\n\n`
+        msg +=  `DOWNLOADING LINK :${result.url_video}\n\n`
         msg += '```' 
-	 return await message.client.sendMessage(message.jid,Buffer.from(videoBuffer.data), MessageType.video, {mimetype: Mimetype.mp4, ptt: false , caption: msg , }); // thumbnail: White.tm_b}); 
-}
-}));
+	 return await message.client.sendMessage(message.jid,Buffer.from(videoBuffer.data), MessageType.video, {mimetype: Mimetype.mp4, ptt: false , caption: msg , }); //thumbnail: White.tm_b 
+});
