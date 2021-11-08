@@ -6,6 +6,7 @@ Instagram: www.instagram.com/kyrie.baran
 const Asena = require('../events');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
 const fs = require('fs');
+const Config = require('../config');
 const axios = require('axios');
 
 Asena.addCommand({pattern: 'txttoimg', fromMe: false, desc: 'more txtit commands'}, (async (message, match) => {
