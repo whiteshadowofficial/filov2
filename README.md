@@ -31,20 +31,16 @@ This bot deploys only with a password! If you want please contact [Owner](https:
 
 <div align="center">
   
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Times&color=F7001E&size=25&lines=➪𝐅𝐢𝐥𝐨+𝐕2+❦︎;𝚠𝚒𝚝𝚑+𝚕𝚘𝚝𝚜+𝚘𝚏+𝚏𝚎𝚊𝚝𝚞𝚛𝚎𝚜;𝚖𝚊𝚍𝚎+𝚋𝚢+𝚗𝚎𝚡𝚞𝚜𝚗𝚠)](https://bit.ly/3lC8I7t)
+
+![My card name](https://cardivo.vercel.app/api?name=Filo%20V2📌&description=Hi,%20Welcome%20To%20Filo%20V2%20WhatsApp%20Bot%20Repo%20❤&image=https://camo.githubusercontent.com/a2016d3b86b73b96404ec50c43059bdaa21abad9babb8899b7fc7a930643e3f1/68747470733a2f2f692e696d6775722e636f6d2f44704b684f76722e6a7067?q=tbn:ANd9GcR7aMC3bf4bg4l_nhYS2Un9FXbFYcB4T83Shjk8xSUZDh_D61LFpzbpeqLW&s=10?v=4&backgroundColor=%23dbf6&instagram=nexus_efx&github=nexusNw&)
 
 
 <div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/DpKhOvr.jpg" width="200" height="200"/>
-
-<a href="#"><img title="ᠻ𝓲ꪶꪮV2" src="https://img.shields.io/badge/𝙵𝙸𝙻𝙾𝚅2✌︎-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-
+  
 
 <a href="https://github.com/nexusNw"><img title="Author" src="https://img.shields.io/badge/Author✍︎-𝐍𝐞𝐱𝐮𝐬 𝐍𝐰-/filo?color=f7df1e&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
-
-![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/nexusNw/filov2&title=Profile%20Views)
 
 <p align="center">
   <a href="https://github.com/nexusNw/filov2">
