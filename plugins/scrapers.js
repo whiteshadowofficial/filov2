@@ -1045,17 +1045,7 @@ else if (config.WORKTYPE == 'public') {
             + 'END:VCARD'
     await message.client.sendMessage(message.jid,{displayname: "͢ꪶ᳄ɪᴛs- ͢ɴᴇxᴜs", vcard: vcard}, MessageType.contact)
 }))
-     Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'owner number'}, (async (message, match) => {
-
-            const vcard = 'BEGIN:VCARD\n'
-            + 'VERSION:3.0\n' 
-            + 'FN:' + Config.OA_NAME + '\n' //coded by nexus 
-            + 'ORG:Filo-nexu;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=' + Config.PHONE + ':' + Config.PHONE + ' \n'
-            + 'END:VCARD'
-await message.client.sendMessage(message.jid, {displayname: "OWNER-2", vcard: vcard}, MessageType.contact);
-
-  }));
+     
         Asena.addCommand({ pattern: 'github ?(.*)', fromMe: false, desc: Glang.GİTHUB_DESC }, async (message, match) => {
 
         const userName = match[1]
