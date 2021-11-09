@@ -1,9 +1,9 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
+Re edited by hyper sir
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 
-WhatsAsena - Yusuf Usta
+WhatsAsena - Yusuf Usta 
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
@@ -24,7 +24,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
     return sonuc.includes(true);
 }
 
-Asena.addCommand({pattern: 'ban ?(.*)', fromMe: true, dontAddCommandList: true, onlyGroup: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
+Asena.addCommand({pattern: 'kick ?(.*)', fromMe: true, dontAddCommandList: true, onlyGroup: true, desc: Lang.BAN_DESC}, (async (message, match) => {  
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -96,7 +96,7 @@ Asena.addCommand({pattern: 'add(?: |$)(.*)', fromMe: true, dontAddCommandList: t
     }
 }));
 
-Asena.addCommand({pattern: 'admin ?(.*)', fromMe: true, dontAddCommandList: true, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
+Asena.addCommand({pattern: 'promote ?(.*)', fromMe: true, dontAddCommandList: true, onlyGroup: true, desc: Lang.PROMOTE_DESC}, (async (message, match) => {    
     var im = await checkImAdmin(message);
     if (!im) return await message.client.sendMessage(message.jid,Lang.IM_NOT_ADMIN,MessageType.text);
 
@@ -1560,6 +1560,13 @@ Asena.addCommand({pattern: 'invite ?(.*)', fromMe: true, dontAddCommandList: tru
     var invite = await message.client.groupInviteCode(message.jid);
     await message.client.sendMessage(message.jid,Lang.INVITE + ' https://chat.whatsapp.com/' + invite, MessageType.text);
 }));
+
+Asena.addCommand({pattern: 'revoke', fromMe: true, onlyGroup: true, desc: Lang.REVOKE_DESC}, (async (message, match) => {    
+    var im = await checkImAdmin(message);
+    if (!im) return await message.client.sendMessage(message.jid, Lang.IM_NOT_ADMIN, MessageType.text);
+    await message.client.revokeInvite(message.jid)
+    await message.client.sendMessage(message.jid, jul.REVOKED, MessageType.text);
+}))
 
 module.exports = {
     checkImAdmin: checkImAdmin
