@@ -17,7 +17,9 @@ const Config = require('../config');
 const Language = require('../language');
 const Lang = Language.getString('sticker');
 
-   //THANKS KARTHIK TERROR BOY
+   //THANKS KARTHIK TERROR BOY 
+
+ if (Config.WORKTYPE == 'private') {
 
 
 
