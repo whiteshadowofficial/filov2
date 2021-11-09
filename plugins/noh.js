@@ -19,7 +19,7 @@ const Lang = Language.getString('sticker');
 
    //THANKS KARTHIK TERROR BOY 
 
- if (Config.WORKTYPE == 'private') {
+
 
 
 
