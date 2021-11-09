@@ -71,7 +71,7 @@ if (regex2.test(message.message)) {
 
     var reply = await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text, { quoted: message.data });
 	
-        const {data} = await axios(`https://api.zeks.me/api/ytplaymp4?apikey=nexusnw000&q=https://youtu.be/${match[1]}`
+        const {data} = await axios(`https://api.zeks.me/api/ytplaymp4?apikey=nexusnw000&q=https://youtu.be/${match[1]}`)
 	
         const { status, result } = data
 
