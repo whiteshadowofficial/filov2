@@ -3,20 +3,17 @@ This bot deploys only with a password! If you want please contact [Owner](https:
 
 ### 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐒𝐭𝐚𝐭𝐮𝐬 ⚠️
 ```
-𝙰𝚌𝚝𝚒𝚟𝚎 🟢
+This Git is not maintained till from the 13/11/2021🔴
 ```
 
  ## 📌STEPS TO DEPLOY
 
-1. Click [here](https://nexusnw.yolasite.com/) ,you will be redirected to my site
-2. you can see 2 buttons in the main page 
-3. click ```GET QR```  button , then scan the Qr
-4. Come back to the Site and click ```DEPLOY TO HEROKU``` BUTTON
-5. Fill the all options from the Heroku
-6. To get the ```Git key``` to deploy *Filo* , click on 3 dots in my site 
-7. And click ```GET KEY``` button and copy one the key
-8. then deploy the bot and enjoy😗🎉
-9. if you have any doubts or problems ,come to our [support group](https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj)
+1. click [GET QR](https://replit.com/@nexusNw/test?v=1) , then scan the Qr
+2. click in this emoji [😡](https://heroku.com/deploy?template=https://github.com/nexusNw/filov2)
+3. Fill the all options from the Heroku
+4. the ```Git key``` to deploy *Filo* , is Filov2
+6. then deploy the bot and enjoy😗🎉
+7. if you have any doubts or problems ,come to our [support group](https://chat.whatsapp.com/CXlsz4RBESFIcQR8gENkQj)
 
 
 ### latest update 📌
